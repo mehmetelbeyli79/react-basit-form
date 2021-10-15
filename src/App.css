@@ -1,0 +1,30 @@
+body {
+  background-color: bisque;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h2 {
+  text-align: center;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: coral;
+  padding: 40px;
+}
+input,
+select {
+  width: 220px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+textarea {
+  width: 220px;
+  margin-bottom: 5px;
+}
